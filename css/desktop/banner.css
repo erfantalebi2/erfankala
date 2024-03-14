@@ -1,0 +1,22 @@
+.banner {
+  width: var(--width);
+  height: 167px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .banner__center {
+    width: 87%;
+    height: 167px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 16px;
+    & img {
+      width: 100%;
+      height: 167px;
+      border-radius: 16px;
+    }
+  }
+}

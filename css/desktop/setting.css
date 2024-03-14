@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --width:100%
+}
+html,body{
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+.banner__top{
+    width: 100%;
+    height: 65px;
+    background-color: linear-gradient(to top, #ef4056, #ef394e);
+}
+.wrapper{
+    width: 100%;
+}
+@font-face {
+    font-family: iran;
+    src: url(../../font/IRANYekanWeb-Medium.eot);
+    src: url(../../font/IRANYekanWeb-Medium.ttf);
+    src: url(../../font/IRANYekanWeb-Medium.woff);
+    src: url(../../font/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+    font-family: irani;
+    src: url(../../font/IRANYekanWeb.eot);
+    src: url(../../font/IRANYekanWeb.ttf);
+    src: url(../../font/IRANYekanWeb.woff);
+    src: url(../../font/IRANYekanWeb.woff2);
+}
+@font-face {
+    font-family: nazanin;
+    src: url(../../font/number/BNazanin.eot);
+    src: url(../../font/number/BNazanin.ttf);
+    src: url(../../font/number/BNazanin.woff);
+    src: url(../../font/number/BNazanin.woff2);
+}
+@font-face {
+    font-family: boldi;
+    src: url(../../font/IRANYekanWeb-Bold.eot);
+    src: url(../../font/IRANYekanWeb-Bold.ttf);
+    src: url(../../font/IRANYekanWeb-Bold.woff);
+    src: url(../../font/IRANYekanWeb-Bold.woff2);
+}
+@font-face {
+    font-family: boldim;
+    src: url(../../font/IRANYekanWeb-ExtraBold.eot);
+    src: url(../../font/IRANYekanWeb-ExtraBold.ttf);
+    src: url(../../font/IRANYekanWeb-ExtraBold.woff);
+    src: url(../../font/IRANYekanWeb-ExtraBold.woff2);
+}

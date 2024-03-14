@@ -1,0 +1,21 @@
+.two__banner {
+  width: var(--width);
+  height: 264px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .two__banner__center {
+    width: 87%;
+    height: 264px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 16px;
+    & img {
+      width: 652px;
+      height: 264px;
+      border-radius: 16px;
+    }
+  }
+}

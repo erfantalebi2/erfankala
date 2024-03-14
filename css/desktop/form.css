@@ -1,0 +1,90 @@
+.form {
+  width: 400px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  padding-top: 50px;
+  border: 1px solid #e8e8e9;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 32px;
+  & span {
+    padding-bottom: 20px;
+    & svg {
+      width: 150px;
+      height: 40px;
+    }
+  }
+  .login__form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    font-family: irani;
+    & h3 {
+      font-family: irani;
+      margin-bottom: 17px;
+    }
+    & p {
+      font-size: 12px;
+      font-family: irani;
+      color: #3f4064;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    & h4 {
+      font-size: 12px;
+      font-family: irani;
+      color: #3f4064;
+      font-weight: 500;
+    }
+    & h5 {
+      font-size: 11px;
+      font-family: irani;
+      color: #3f4064;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+    & a {
+      color: #008eb2;
+      font-family: irani;
+      text-decoration: none;
+    }
+    .register__form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column wrap;
+      gap: 40px;
+      width: 100%;
+      font-family: irani;
+      & input[type="email"] {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #008eb2;
+        outline: none;
+      }
+      .form__link{
+        width: 100%;
+        height: 40px;
+        width: 100%;
+        height: 40px;
+        background-color: #ef4056;
+        color: white;
+        font-size: 17px;
+        font-family: irani;
+        font-weight: bold;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        text-align: center;
+        line-height: 40px;
+      }
+    }
+  }
+}

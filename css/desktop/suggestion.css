@@ -1,0 +1,66 @@
+.pishnahad__digikala{
+  display: block;
+  padding: 40px 0 25px 0;
+  text-align: center;
+  & h3{
+      font-size: 21px;
+      font-family: iran;
+      font-weight: 500;
+  }
+}
+.suggestion {
+  width: var(--width);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  .suggestion__center {
+    width: 87%;
+    height: 300px;
+    .suggestion__all__items {
+      width: var(--width);
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #e0e0e2;
+      border-radius: 16px;
+      .suggestion__both__items {
+        width: var(--width);
+        height: 300px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        column-gap: 100px;
+        row-gap: 60px;
+        .suggestion__img {
+          width: 85px;
+          height: 85px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          row-gap: 12px;
+          flex-direction: column;
+          background-color: #f0f0f1;
+          border-radius: 50%;
+          object-fit: cover;
+          text-align: center;
+          & img {
+            width: 60px;
+            height: 60px;
+            margin-top: 40px;
+          }
+          & span {
+            width: 150px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: iran;
+            opacity: 0.85;
+          }
+        }
+      }
+    }
+  }
+}

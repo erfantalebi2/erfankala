@@ -1,0 +1,128 @@
+.super__market {
+  width: var(--width);
+  height: 110px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+  .super__market__center {
+    width: 87%;
+    height: 110px;
+    background: linear-gradient(267.6deg, #0da20a, #84e183);
+    border-radius: 20px;
+    & a {
+      width: 100%;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap;
+      position: relative;
+      padding: 12px 40px 12px 40px;
+      text-decoration: none;
+      .super__market__right {
+        width: 38%;
+        height: 110px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 7px;
+        padding-bottom: 15px;
+        .super__market__svg {
+          transform: scale(0.9);
+        }
+        .super__market__img {
+          & img {
+            width: 66px;
+            height: 62px;
+          }
+        }
+        .super__market__p {
+          border-radius: 999px;
+          padding: 3px 13px 3px 13px;
+          background-color: #39ae00;
+          text-align: center;
+          & p {
+            font-size: 15px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #fff;
+            font-family: irani;
+          }
+        }
+      }
+      .super__market__left {
+        width: 52%;
+        height: 110px;
+        margin-right: 120px;
+        .super__market__menu {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          column-gap: 10px;
+          padding-top: 10px;
+          .super__market__item {
+            width: fit-content;
+            position: relative;
+            .img__menu {
+              width: 70px;
+              height: 70px;
+              background-color: #fff;
+              object-fit: cover;
+              text-align: center;
+              border-radius: 50%;
+              & img {
+                width: 58px;
+                height: 58px;
+                margin-top: 5px;
+              }
+            }
+            .span__menu {
+              width: 34px;
+              height: 20px;
+              background-color: #d32f2f;
+              color: #fff;
+              font-size: 12px;
+              font-weight: 600;
+              border-radius: 16px;
+              z-index: 1;
+              font-family: irani;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              text-align: center;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.more__super__market {
+  width: 150px !important;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  color: #39ae00;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: center;
+  font-family: irani;
+  border-radius: 9999px;
+  & svg {
+    margin-bottom: 5px;
+  }
+}
+.super__market .amazing__supermarket{
+  background: linear-gradient(267.6deg,rgba(114, 0, 61, 0.437),rgb(46, 0, 214,1));
+}
+.super__market .amazing__supermarket__2{
+  background: linear-gradient(267.6deg,rgba(155, 148, 0, 0.467),rgb(46, 96, 0));
+}
+

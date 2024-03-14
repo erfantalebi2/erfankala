@@ -1,0 +1,41 @@
+.popular {
+  width: var(--width);
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .popular__center {
+    width: 87%;
+    height: 225px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    .popular__top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      & h3 {
+        font-size: 20px;
+        font-family: iran;
+        font-weight: 500;
+      }
+      & div {
+        margin-left: 8px;
+      }
+    }
+    .popular__bottom {
+      width: var(--width);
+      background-color: #e0e0e2;
+      margin-top: 40px;
+      & img {
+        width: 110px;
+        height: 110px;
+        text-align: center;
+      }
+    }
+  }
+}
+.myPopular .swiper-slide{
+    text-align: -webkit-center;
+}

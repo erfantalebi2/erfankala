@@ -1,0 +1,22 @@
+.four__banner {
+  width: var(--width);
+  height: 242px;
+  margin-top: 17px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .four__banner__center {
+    width: 87%;
+    height: 242px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 16px;
+    & img {
+      width: 318.4px;
+      height: 242px;
+      border-radius: 16px;
+    }
+  }
+}

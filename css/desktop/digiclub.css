@@ -1,0 +1,111 @@
+.digiclub {
+  width: var(--width);
+  height: 85px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+  justify-content: center;
+  .digiclub__center {
+    width: 87%;
+    height: 85px;
+    background: linear-gradient(
+      90deg,
+      rgba(53, 166, 200, 1) 0%,
+      rgba(0, 114, 149, 1) 61%
+    );
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    .digiclub__right {
+      width: 30%;
+      height: 85px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin-right: 40px;
+      & svg {
+        width: 119px !important;
+        height: 33px !important;
+      }
+    }
+    .digiclub__left {
+      width: 66%;
+      height: 65px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      padding-top: 12px;
+      column-gap: 5px;
+      padding-right: 60px;
+      .digiclub__first {
+        background-color: #fff;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 5px;
+        & span {
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        & p {
+          font-family: irani;
+          font-size: 12px;
+          font-weight: 600;
+          opacity: 0.9;
+        }
+        & img {
+          width: 168px;
+          height: 60px;
+        }
+      }
+      .digiclub__second {
+        background-color: #fff;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 5px;
+        & span {
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        & p {
+          font-family: irani;
+          font-size: 12px;
+          font-weight: 600;
+          opacity: 0.9;
+        }
+        & img {
+          width: 168px;
+          height: 60px;
+        }
+      }
+      .digiclub__third {
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 5px;
+        & span {
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        & p {
+          font-family: irani;
+          font-size: 12px;
+          font-weight: 600;
+          opacity: 0.9;
+        }
+        & img {
+          width: 168px;
+          height: 60px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
